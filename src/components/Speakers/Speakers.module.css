@@ -1,0 +1,16 @@
+.Grid {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Grid > span {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.Grid > h5 {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,74 @@
+.NavSection {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.BodySection {
+  position: relative;
+}
+
+.MenuList {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  margin-top: 1.1rem;
+}
+
+.MenuList > a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  padding: 0 1rem;
+}
+
+.MenuList > a:not(:last-child) {
+  border-right: 2px solid rgb(41, 41, 41);
+}
+
+.TitleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.SMLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.SMLinks svg {
+  zoom: 170%;
+  margin: 0 1rem;
+}
+
+.RegionalAmbassador {
+  text-align: center;
+}
+
+.RegionalAmbassador > p {
+  margin: 10px 0;
+}
+
+.floatingLinks {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 20%;
+  right: 10%;
+}
+
+.floatingLinks > a {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.105);
+}
+
+.floatingLinks span {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,17 @@
+.Homepage__Container {
+  .regionalBox {
+    height: 300px;
+    border: 1px solid rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ContentSection {
+    margin: 0 10%;
+  }
+
+  .ContentSection > div {
+    margin: 2rem 0;
+  }
+}

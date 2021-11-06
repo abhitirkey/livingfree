@@ -1,0 +1,26 @@
+.CarouselTopBanner {
+  position: absolute;
+  display: flex;
+  right: 25%;
+  padding: 1rem;
+  z-index: 99;
+}
+
+.CarouselTopBanner > div {
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.CarouselContainer {
+  padding-top: 5rem;
+}
+
+.TestimonialText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TestimonialText > p {
+  margin: 0 10%;
+}

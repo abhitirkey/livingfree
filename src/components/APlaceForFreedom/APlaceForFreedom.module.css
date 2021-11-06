@@ -1,0 +1,42 @@
+.ImgContainer {
+  text-align: center;
+}
+
+.ImgContainer > * {
+  margin: 5px 0;
+}
+
+.TextSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextSection > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.TextSection > div > div {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.Text {
+  margin-right: 0.4rem;
+}
+
+.iconLinks svg {
+  zoom: 170%;
+  margin: 0 2px;
+}
+
+.iconLinks {
+  position: absolute;
+  top: -5px;
+}
+
+.imgLinks svg {
+  zoom: 170%;
+  margin: 0 0.5rem;
+}
