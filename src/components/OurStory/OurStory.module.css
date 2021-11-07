@@ -1,0 +1,36 @@
+.OurStorySection p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.OurStorySection > p {
+  text-align: justify;
+}
+
+.CircularHead {
+  border: 10px solid;
+  border-radius: 50%;
+  height: 12rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Blue {
+  border-color: rgb(0, 129, 210);
+}
+
+.Green {
+  border-color: rgb(0, 199, 80);
+}
+
+.Red {
+  border-color: rgb(255, 81, 81);
+}
+
+.Yellow {
+  border-color: rgb(255, 234, 0);
+}

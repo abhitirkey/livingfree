@@ -1,0 +1,48 @@
+.ProgramTitleSection {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.TitleContainer {
+  flex-basis: 20%;
+  text-align: center;
+  height: 100%;
+}
+
+.TitleContainer > span {
+  font-weight: 250;
+  margin-top: 1rem;
+}
+
+.CircularContainer {
+  background-color: rgb(255, 50, 50);
+  border-radius: 50%;
+  height: 75px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem auto;
+}
+
+.CircularContainer svg {
+  color: white;
+  zoom: 200%;
+}
+
+.TextSection {
+  margin-top: 3rem;
+}
+
+.TextSection > p {
+  margin: 1rem 0;
+  font-weight: 250;
+}
+
+.Questions {
+  font-style: italic;
+  color: rgb(0, 150, 85);
+  font-weight: 500;
+  font-size: 1rem;
+}
